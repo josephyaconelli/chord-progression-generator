@@ -1,7 +1,7 @@
 
 
 from consts import Keys as KeyConsts
-from Chord import Chord
+from classes.Chord import Chord
 
 class Key:
 

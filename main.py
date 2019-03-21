@@ -1,9 +1,9 @@
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from classes import Key
+from classes.Key import Key
 
 
-myKey = Key.Key('a',True)
+myKey = Key('a',True)
 
 print(myKey)
 
